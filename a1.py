@@ -17,9 +17,9 @@ import pickle
 print('\n')
 print('Question 1')
 print('---------------------')
-'''
-Vectorized Code and Indexing
-'''
+
+#Vectorized Code and Indexing
+
 
 print('\n')
 print('Question 1(a)')
@@ -129,6 +129,7 @@ print(np.matmul(yTD,DTy))
 print('\n')
 print('Question 2')
 print('---------------------')
+#Vectorized VS non-vectorized code
 
 print('\n')
 print('Question 2(a)')
@@ -200,7 +201,7 @@ print('\n')
 print('Question 3')
 print('---------------------')
 
-
+#Binary Linear Least-Squares Regression
 
 
 print('\n')
@@ -296,6 +297,8 @@ print('\n')
 print('Question 4')
 print('---------------------')
 
+#Binary Logistic Regression
+
 with open('dataA1Q4v2.pickle','rb') as f:
     Xtrain,Ttrain,Xtest,Ttest = pickle.load(f)
 
@@ -351,6 +354,9 @@ plt.show()
 print('\n')
 print('Question 5')
 print('---------------------')
+
+#Gradiant Decent 
+#Commented due to unable to complete on time.
 
 print("I dont know")
 '''
@@ -442,7 +448,10 @@ print('---------------------')
 print('\n')
 print('Question 6(a)')
 print('-------------')    
-    
+#Nearest Neighbours 
+
+#Using K nearest neighbours(KNN) to classify images of hand wirtten digits from MNIST, a bench mark machine-learning dataset.
+#There are ten different digits (0 to 9) to save time, only will be run on digit 5,6 and 4,7.
 
 with open('mnistTVT.pickle','rb') as f:
     Xtrain,Ttrain,Xval,Tval,Xtest,Ttest = pickle.load(f)
@@ -474,6 +483,8 @@ print('\n')
 print('Question 6(b)')
 print('-------------')
 
+#Reduce the dimention of data matrix to visualize them.
+
 row_size = np.shape(rd_Xtrain_full)[0]
 rd_Xtrain_full = np.reshape(rd_Xtrain_full,(row_size,28,28))
 i = 1
@@ -490,6 +501,8 @@ plt.show()
 print('\n')
 print('Question 6(c)')
 print('-------------')
+
+#Computers the accuracy 1 by given Sklearn library, another way is by computing accuracy by implemation of mathmatics and statistics formulas.
 
 val_accuracy = []
 fs_accuracy = []
@@ -640,6 +653,7 @@ print('\n')
 print('Question 6(e)')
 print('-------------')
 
+#These are word questions dismissed.
 
 
 
