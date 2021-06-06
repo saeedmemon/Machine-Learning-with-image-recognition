@@ -17,6 +17,9 @@ import pickle
 print('\n')
 print('Question 1')
 print('---------------------')
+'''
+Vectorized Code and Indexing
+'''
 
 print('\n')
 print('Question 1(a)')
