@@ -1,4 +1,4 @@
-# Machine Learning with image recognition
+# Machine Learning with image recognition [CSC311 A1]
 
 This is a project from the Machine Learning course from the University of Toronto.
 
