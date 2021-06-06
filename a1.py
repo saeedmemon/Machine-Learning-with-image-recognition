@@ -649,11 +649,7 @@ print("The test accuracy  of best value k is ",test_accuracy_d)
 
 
 
-print('\n')
-print('Question 6(e)')
-print('-------------')
 
-#These are word questions dismissed.
 
 
 
